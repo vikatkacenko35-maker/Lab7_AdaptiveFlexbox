@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    align-items: center ;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.item{
+    flex-grow: 1;
+    flex-basis: 150px;
+    flex-shrink: 0;
+    flex: 1;
+    align-self: flex-end;
+}
+body{
+    font-family: Arial,sans-serif;
+}
+.container{
+    border: 2px solid #333;
+    padding: 10px;
+}
+.item{
+    background-color: hotpink;
+    border: 1px solid #003;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
