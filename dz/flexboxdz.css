@@ -110,4 +110,15 @@ text-align: center;
     text-align: center;
     padding: 25px 15px;
 }
+.socials {
+    margin-top: 15px;
+}
 
+.socials button {
+    margin: 0 5px;
+    padding: 8px 14px;
+    border: none;
+    background: #444;
+    color: white;
+    border-radius: 6px;
+}
